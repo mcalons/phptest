@@ -1,0 +1,6 @@
+tasks:
+  - init: composer install
+    command: php artisan serve --host 0.0.0.0
+ports:
+  - port: 8080
+    onOpen: open-browser
